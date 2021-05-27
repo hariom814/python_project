@@ -145,3 +145,10 @@ with open(path+'mega_product_page_data.csv', 'w', newline='', encoding='utf-8') 
                 response = Selector(text=resp.text)
                 data_main1 = get_crawl(response,link)
                 writer.writerow(data_main1)
+                
+# https://www.megabad.com/hersteller-steinberg-ersatzteile-ersatzpumpe-zu-seifenspender-a-179567.htm
+# https://www.megabad.com/hersteller-steinberg-ersatzteile-ersatzbuerstenkopf-schwarz-a-94425.htm
+# https://www.megabad.com/steinberg-accessoires-serie-450-handtuchhalter-a-78991.htm
+# https://www.megabad.com/hersteller-steinberg-bad-accessoires-serie-460-a-79017.htm
+# https://www.megabad.com/steinberg-accessoires-serie-650-reservepapierhalter-a-79151.htm
+
