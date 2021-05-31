@@ -125,7 +125,7 @@ with open(path + '/megabad_links.csv', 'w', newline='', encoding="UTF-8") as fil
 
     all_brand_response = Selector(text=all_brand_selector.text)
     all_brand = all_brand_response.xpath('//a[@class="hersteller-link"]/@href').extract()
-    for brand in all_brand[:1]:
+    for brand in all_brand:
         retry1 = 0
         while retry1 < 5:
 
